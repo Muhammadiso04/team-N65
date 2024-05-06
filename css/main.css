@@ -1,3 +1,9 @@
+.moon {
+  background-image: url(../images/back_moon.png);
+}
+
+.lounch-body {
+  background-image: url("../images/back_moon.png");
 .lounch-body {
   background-image: url("/images/bagraund.jpg");
   background-image: url("../images/lounch-bg.png");
