@@ -5,6 +5,7 @@
 .lounch-body {
   background-image: url("../images/back_moon.png");
 .lounch-body {
+  background-image: url("/images/bagraund.jpg");
   background-image: url("../images/lounch-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -110,4 +111,4 @@
 body {
   font-family: Bellefair;
   font-family: Barlow;
-}/*# sourceMappingURL=main.css.map */
+}
