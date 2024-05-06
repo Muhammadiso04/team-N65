@@ -1,5 +1,6 @@
 .lounch-body {
   background-image: url("/images/bagraund.jpg");
+  background-image: url("../images/lounch-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top left;
@@ -77,4 +78,31 @@
   width: 1350px;
   margin: 0 auto;
   padding: 0 20px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("../fonts/Bellefair-Regular.woff2") format("woff2"), url("../fonts/Bellefair-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"), url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Bellefair;
+  font-family: Barlow;
+}
